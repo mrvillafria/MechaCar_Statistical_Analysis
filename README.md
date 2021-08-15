@@ -15,18 +15,21 @@
 	- The calculated multiple r-squared value is 0.7149 which means that roughly 71% of the variability of our dependent value is explained using this linear model. This does not necessarily mean this is a good predicator.
 
 ## Summary Statistics on Suspension Coils
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 The Suspension_Coil dataset contained results from multiple manufacturing production lots. We created two dataframes:
-1. total_summary: the mean, median, variance and standard deviation of the suspension coil's PSI (pounds per square inch) column
+1. Total Summary: the mean, median, variance and standard deviation of the suspension coil's PSI (pounds per square inch) column
 
 ![total_summary](total_summary.PNG)
 
-2. lot_summary: the mean, median, variance, and standard deviation of the suspension coil's PSI (pounds per square inch) column grouped by each manufacturing lot
+2. Lot Summary: the mean, median, variance, and standard deviation of the suspension coil's PSI (pounds per square inch) column grouped by each manufacturing lot
 
 ![lot_summary](lot_summary.PNG)
 
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+	- The variance of the Total Summary is 62.29356 and is below 100 pounds per square inch, meaning the data does meet design specifications.
+	- Lot 1 (variance: 0.9795918) and Lot 2 (variance: 7.4693878) individually both meet the design specifications.
+	- Lot 3 (variance: 170.2861224) exceeds 100 pounds per square inch so it does not meet the design specifications.
 
 ## T-Tests on Suspension Coils
 Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
