@@ -19,9 +19,11 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 The Suspension_Coil dataset contained results from multiple manufacturing production lots. We created two dataframes:
 1. total_summary: the mean, median, variance and standard deviation of the suspension coil's PSI (pounds per square inch) column
+
 ![total_summary](total_summary.PNG)
 
 2. lot_summary: the mean, median, variance, and standard deviation of the suspension coil's PSI (pounds per square inch) column grouped by each manufacturing lot
+
 ![lot_summary](lot_summary.PNG)
 
 
