@@ -53,7 +53,6 @@ The Suspension_Coil dataset contained results from multiple manufacturing produc
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-
 - What metric or metrics are you going to test?
 	- There are many different factors to consider when choosing a car. When looking at how MechcaCar performs against their competitors, the metric I would like to analyze more would be safety ratings of the MechaCar.
 
