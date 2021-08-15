@@ -32,7 +32,22 @@ The Suspension_Coil dataset contained results from multiple manufacturing produc
 	- Lot 3 (variance: 170.2861224) exceeds 100 pounds per square inch so it does not meet the design specifications.
 
 ## T-Tests on Suspension Coils
-Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+#### All Manufacturing Lots T-Test
+![alllot_ttest](alllot_ttest.PNG)
+
+#### Lot 1 T-Test
+![lot1_ttest](lot1_ttest.PNG)
+
+#### Lot 2 T-Test
+![lot2_ttest](lot2_ttest.PNG)
+
+#### Lot 3 T-Test
+![lot3_ttest](lot3_ttest.PNG)
+
+- Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+	- Assuming our significance level was the common 0.05%, our p-vaues for all manufacturing lots combined, lot 1 individually, and lot 2 individually are above our significance level. This means we do not have sufficient evidence to reject the null hypothesis.
+	- Lot 3 t-test has a p-value of 0.4168, which is below the significance level of 0.05, so we can reject the null hypothesis. 
 
 ## Study Design: MechaCar vs Competition
 
