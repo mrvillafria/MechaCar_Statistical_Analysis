@@ -33,16 +33,16 @@ The Suspension_Coil dataset contained results from multiple manufacturing produc
 
 ## T-Tests on Suspension Coils
 
-#### All Manufacturing Lots T-Test
+#### All Manufacturing Lots T-Test Results
 ![alllot_ttest](alllot_ttest.PNG)
 
-#### Lot 1 T-Test
+#### Lot 1 T-Test Results
 ![lot1_ttest](lot1_ttest.PNG)
 
-#### Lot 2 T-Test
+#### Lot 2 T-Test Results
 ![lot2_ttest](lot2_ttest.PNG)
 
-#### Lot 3 T-Test
+#### Lot 3 T-Test Results
 ![lot3_ttest](lot3_ttest.PNG)
 
 - Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
@@ -53,10 +53,16 @@ The Suspension_Coil dataset contained results from multiple manufacturing produc
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-What metric or metrics are you going to test?
 
-What is the null hypothesis or alternative hypothesis?
+- What metric or metrics are you going to test?
+	- There are many different factors to consider when choosing a car. When looking at how MechcaCar performs against their competitors, the metric I would like to analyze more would be safety ratings of the MechaCar.
 
-What statistical test would you use to test the hypothesis? And why?
+- What is the null hypothesis or alternative hypothesis?
+	- Null Hypothesis: If MechaCars and their competitors have the same amount of safety features, MechaCars safety ratings will be the same or less than their competition.
+	- Alternative Hypothesis: If MechaCars and their competitors have the same amount of safety features, MechaCars safety ratings will be higher than their competition.
 
-What data is needed to run the statistical test?
+- What statistical test would you use to test the hypothesis? And why?
+	- I would use the multiple linear regression test to analyze the different safety features. 
+
+- What data is needed to run the statistical test?
+	- Some examples of safety features we would like to look at are airbags, traction control, seatbelts, emergency breaks, and blind spot detection.
