@@ -8,7 +8,7 @@ For this week's project, we will be analyzing AutosRUs' newest prototype, the Me
 ![statistical_summary](/Images/statistical_summary.PNG)
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-	- Vehicle Length and Ground Clearance contribute the least amount of variance to the mpg values.
+	- Vehicle Length and Ground Clearance are statistically likely to provide non-random amounts of variance.
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 	- The slope is considered non-zero because the p-value of our linear regression analysis is 5.35e-11 which is much smaller than the significance level of 0.05%. 
