@@ -63,7 +63,7 @@ Write a short description of a statistical study that can quantify how the Mecha
 	- Alternative Hypothesis: If MechaCars and their competitors have the same amount of safety features, MechaCars safety ratings will be higher than their competition.
 
 - What statistical test would you use to test the hypothesis? And why?
-	- I would use the multiple linear regression test to analyze the different safety features. 
+	- I would use the multiple linear regression test to analyze the different safety features. The multiple linear regression would show how much variance in the dependent variable is accounted for in a linear combination of independent variables.
 
 - What data is needed to run the statistical test?
 	- Some examples of safety features we would like to look at are airbags, traction control, seatbelts, emergency breaks, and blind spot detection.
